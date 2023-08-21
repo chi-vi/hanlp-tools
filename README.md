@@ -22,7 +22,15 @@ Gõ vào dòng `python -m pip install -r requirements.txt` để cài đặt th�
 
 ### Bước 3: Chạy công cụ phân tích dữ liệu
 
-Sau khi làm xong các bước trên, bấm đúp vào tệp `hanlp-cli.py` để chạy chương trình.
+Sau khi làm xong các bước trên, bấm đúp vào tệp `hanlp-v1.py` hoặc `hanlp-v2.py` để chạy chương trình.
 Tệp kết quả sẽ được lưu trong thư mục con `output` của thư mục vừa được giải nén.
 
 Lưu ý: Lần đầu tiên chạy chương trình có thể sẽ lâu chút vì thư viện nó phải tải dữ liệu model. Các bạn thỉnh kiên nhẫn.
+
+## Khác biệt giữa hanlp-v1 và hanlp-v2
+
+Về cơ bản thì hai phiên bản này không có gì khác biệt, ngoại trừ v1 sẽ thử phân tích tất cả các dòng
+trong một chương truyện, v2 thì chỉ phân tích theo từng dòng.
+
+Tuỳ vào máy của bạn mà v1 có thể nhanh hơn v2 hoặc ngược lại.
+Bạn nào chạy colab mà báo GPU không đủ VRAM thì tốt nhất là chạy v2 cho chắc.
